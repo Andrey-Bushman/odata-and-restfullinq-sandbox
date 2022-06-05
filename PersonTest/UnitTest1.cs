@@ -23,10 +23,10 @@ public class UnitTest1
                 RelativeUrl = "api/Persons/ByLinq"
             };
 
-        // It doesn't work. error CS1955: Non-invocable member 'Convert' cannot be used like a method.
+        // It works in Swagger UI, but doesn't work in C# code. error CS1955: Non-invocable member 'Convert' cannot be used like a method.
         // var persons = getAllPersons().Where(n => (int) n.Gender == 1).ToListAsync<Person>().Result;
         
-        // It works fine
+        // It works fine in Swagger UI and C# code.
         var persons = getAllPersons().Where(n => n.FirstName == "Mia").ToListAsync<Person>().Result;
         Assert.Equal(1,persons.Count);
     }
