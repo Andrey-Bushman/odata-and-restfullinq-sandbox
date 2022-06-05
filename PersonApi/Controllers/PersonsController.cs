@@ -29,10 +29,10 @@ namespace PersonApi.Controllers
         
         [HttpGet]
         [Route("ByLinq")]
-        public async ValueTask<ActionResult<IQueryable<Person>>> GetAllPerson(string linqQuery)
+        public async ValueTask<ActionResult<IQueryable<Person>>> GetAllPerson(string linQuery)
         {
             IQueryable<Person> allPersons = _personService.RetrieveAllPersons();
-            var results = await RESTFulLinqService.RunQueryAsync(linqQuery, 
+            var results = await RESTFulLinqService.RunQueryAsync(linQuery, 
                 new Globals<Person>{ DataSource = allPersons});
             return Ok(results);
         }
