@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30114.105
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonApi", "PersonApi\PersonApi.csproj", "{AEF5F16E-6E23-49CA-A0B8-A07F69A8BE80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonModel", "PersonModel\PersonModel.csproj", "{69F24D13-B96E-4E00-AA0E-43F7A594C6AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonTest", "PersonTest\PersonTest.csproj", "{88F24778-553B-4FBE-BC88-3062960F53DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AEF5F16E-6E23-49CA-A0B8-A07F69A8BE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF5F16E-6E23-49CA-A0B8-A07F69A8BE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF5F16E-6E23-49CA-A0B8-A07F69A8BE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF5F16E-6E23-49CA-A0B8-A07F69A8BE80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{69F24D13-B96E-4E00-AA0E-43F7A594C6AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69F24D13-B96E-4E00-AA0E-43F7A594C6AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69F24D13-B96E-4E00-AA0E-43F7A594C6AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69F24D13-B96E-4E00-AA0E-43F7A594C6AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88F24778-553B-4FBE-BC88-3062960F53DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88F24778-553B-4FBE-BC88-3062960F53DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88F24778-553B-4FBE-BC88-3062960F53DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88F24778-553B-4FBE-BC88-3062960F53DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
